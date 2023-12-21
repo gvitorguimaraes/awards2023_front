@@ -1,0 +1,58 @@
+
+/**
+* BACKGROUND GRADIENT
+**/
+body
+{
+    background: linear-gradient(302deg, #9120ff, #3388ff, #ff338b);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 29s ease infinite;
+    -moz-animation: AnimationName 29s ease infinite;
+    -o-animation: AnimationName 29s ease infinite;
+    animation: AnimationName 29s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 15%}
+    50%{background-position:100% 86%}
+    100%{background-position:0% 15%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 15%}
+    50%{background-position:100% 86%}
+    100%{background-position:0% 15%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 15%}
+    50%{background-position:100% 86%}
+    100%{background-position:0% 15%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 15%}
+    50%{background-position:100% 86%}
+    100%{background-position:0% 15%}
+}
+
+#titulo_principal
+{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.botao-fixo {
+    position: fixed;
+    top: 20px; /* Ajuste a distância do topo conforme necessário */
+    left: 20px; /* Ajuste a distância da esquerda conforme necessário */
+    z-index: 999; /* Garante que o botão esteja acima de outros elementos */
+    width: 42px; /* Define a largura do botão */
+    height: 42px; /* Define a altura do botão */
+    border-radius: 50%; /* Torna o botão redondo */
+    background-color: rgb(85, 145, 236); /* Cor de fundo azul */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    outline: none; /* Remove o contorno ao focar */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    font-size: 20px; /* Define o tamanho da fonte */
+  }

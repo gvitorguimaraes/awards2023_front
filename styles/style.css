@@ -1,0 +1,63 @@
+
+/**
+* BACKGROUND GRADIENT
+**/
+body
+{
+    background: linear-gradient(302deg, #9120ff, #3388ff, #ff338b);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 29s ease infinite;
+    -moz-animation: AnimationName 29s ease infinite;
+    -o-animation: AnimationName 29s ease infinite;
+    animation: AnimationName 29s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 15%}
+    50%{background-position:100% 86%}
+    100%{background-position:0% 15%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 15%}
+    50%{background-position:100% 86%}
+    100%{background-position:0% 15%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 15%}
+    50%{background-position:100% 86%}
+    100%{background-position:0% 15%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 15%}
+    50%{background-position:100% 86%}
+    100%{background-position:0% 15%}
+}
+
+
+/** Página principal **/
+
+#titulo_principal
+{
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card
+{
+    height: 335px;
+    border: none; /* Remove a borda */
+    background-color: rgba(255, 255, 255, 0.5); /* Cor com transparência */
+}
+
+/** Remover o sublinhado dos textos de link **/
+a
+{
+    text-decoration: none;
+}
+
+.row
+{
+    margin-bottom: 100px;
+}
