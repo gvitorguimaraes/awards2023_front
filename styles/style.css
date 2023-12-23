@@ -42,6 +42,14 @@ body
     color: white;
     margin-top: 100px;
     margin-bottom: 100px;
+    font-size: 80px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+h3
+{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .card
@@ -49,6 +57,7 @@ body
     height: 335px;
     border: none; /* Remove a borda */
     background-color: rgba(255, 255, 255, 0.5); /* Cor com transparência */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 /** Remover o sublinhado dos textos de link **/

@@ -39,9 +39,11 @@ body
     color: white;
     margin-top: 50px;
     margin-bottom: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.botao-fixo {
+.botao-fixo 
+{
     position: fixed;
     top: 20px; /* Ajuste a distância do topo conforme necessário */
     left: 20px; /* Ajuste a distância da esquerda conforme necessário */
@@ -55,4 +57,30 @@ body
     outline: none; /* Remove o contorno ao focar */
     cursor: pointer; /* Altera o cursor ao passar por cima */
     font-size: 20px; /* Define o tamanho da fonte */
-  }
+}
+
+.card
+{
+    height: 350px;
+    border: none; /* Remove a borda */
+    background-color: rgba(255, 255, 255, 0.5); /* Cor com transparência */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+h4
+{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/** Remover o sublinhado dos textos de link **/
+a
+{
+    text-decoration: none;
+}
+
+.row
+{
+    margin-bottom: 100px;
+}
