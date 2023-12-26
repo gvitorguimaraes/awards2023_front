@@ -1,6 +1,6 @@
 
 function votar(categoria, candidato) {
-    fetch('http://127.0.0.1:5000/votar', {
+    fetch('https://ink-awards-2023-production.up.railway.app/votar', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
