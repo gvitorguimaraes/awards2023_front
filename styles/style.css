@@ -54,19 +54,15 @@ h3
 
 .card
 {
-    height: 335px;
+    height: 385px;
     border: none; /* Remove a borda */
     background-color: rgba(255, 255, 255, 0.5); /* Cor com transparência */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 100px;
 }
 
 /** Remover o sublinhado dos textos de link **/
 a
 {
     text-decoration: none;
-}
-
-.row
-{
-    margin-bottom: 100px;
 }

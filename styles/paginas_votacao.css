@@ -38,8 +38,14 @@ body
 {
     color: white;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 15px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#subtitulo
+{
+    color: rgb(206, 206, 206);
+    margin-bottom: 85px;
 }
 
 .botao-fixo 
@@ -66,6 +72,7 @@ body
     background-color: rgba(255, 255, 255, 0.5); /* Cor com transparência */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     color: white;
+    margin-bottom: 100px;
 }
 
 h4
@@ -78,9 +85,4 @@ h4
 a
 {
     text-decoration: none;
-}
-
-.row
-{
-    margin-bottom: 100px;
 }
