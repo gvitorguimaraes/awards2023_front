@@ -10,7 +10,7 @@ function votar(categoria, candidato) {
     .then(response => {
       if (response.ok) {
         alert(`Você votou em ${candidato} na categoria ${categoria}!`);
-        window.history.back();
+        window.location.href = 'https://gvitorguimaraes.github.io/awards2023_front/';
       } else {
         alert('Ocorreu um erro ao votar. Por favor, tente novamente.');
       }
